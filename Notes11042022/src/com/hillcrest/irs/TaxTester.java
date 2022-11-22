@@ -21,13 +21,13 @@ public class TaxTester {
         if(maritalStatus.equals("Y")){
             status = Tax.MARRIED;
         }
-        else if{
-            status = Tax.SINGLE;
-        }
-        else{
-            System.out.println("Not a valid marital status.");
-            return;
-        }
+//        else if(){
+//            status = Tax.SINGLE;
+//        }
+//        else{
+//            System.out.println("Not a valid marital status.");
+//            return;
+//        }
 
         // Ternary operator
         int ternaryStatus = maritalStatus.equals("Y")

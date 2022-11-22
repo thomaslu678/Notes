@@ -16,14 +16,14 @@ public class InvestmentTester {
             if(!in.hasNextInt()) {
                 System.out.println("Invalid input. values must be greater than 0 and less than 30.");
             } else{
-                year = in.HasNextInt();
+                //year = in.HasNextInt();
             }
         } while (year < 0 || year > 30);
 
 
-        Investment investment2 = new Investment(10000, 5, year);
-        investment2.growBalance();
-        System.out.printf("After %d years, the balance is %.2f", year, investment2.getBalance());
+//        Investment investment2 = new Investment(10000, 5, year);
+//        investment2.growBalance();
+//        System.out.printf("After %d years, the balance is %.2f", year, investment2.getBalance());
 
     }
 }
