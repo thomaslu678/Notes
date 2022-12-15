@@ -32,7 +32,7 @@ public class ArrayInputTester {
         for(var value: values){
             System.out.print(value);
             if (value == largest){
-                System.out.print();
+                System.out.print("");
             }
 
         }
