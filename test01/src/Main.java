@@ -1,5 +1,11 @@
 public class Main {
+    public void callSelf(){
+        System.out.println("test");
+        callSelf();
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Main main = new Main();
+        main.callSelf();
     }
 }
