@@ -17,7 +17,7 @@ public class ChoiceQuestionTest {
     }
 
     private static ChoiceQuestion getChoiceQuestion() {
-        ChoiceQuestion question = new ChoiceQuestion();
+        ChoiceQuestion question = new ChoiceQuestion("");
         question.setQuestion("What is the first day of the week?");
         question.addChoice("Monday", true);
         question.addChoice("Tuesday", false);
