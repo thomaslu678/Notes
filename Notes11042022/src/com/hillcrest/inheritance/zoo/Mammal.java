@@ -1,6 +1,6 @@
 package com.hillcrest.inheritance.zoo;
 
-public class Mammal extends Animal{
+public abstract class Mammal extends Animal{
 
     private int legs;
     private String hairTexture;
