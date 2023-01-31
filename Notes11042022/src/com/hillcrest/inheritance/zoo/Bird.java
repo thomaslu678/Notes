@@ -6,7 +6,7 @@ public abstract class Bird extends Mammal{
     private boolean canFly;
 
     public Bird(int age, String color, int wingSpan, boolean canFly){
-        super(age, color);
+        super(age, color, wingSpan, "fuzzy");
         this.wingSpan = wingSpan;
         this.canFly = canFly;
     }

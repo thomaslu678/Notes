@@ -14,10 +14,10 @@ public class ZooTester {
                     animal = new Tiger(6, "rough", 7);
                     break;
                 case 2:
-                    animal = new Ostrich(23, "gray");
+                    animal = new Ostrich(23, "gray", 10, true);
                     break;
                 case 3:
-                    animal = new Parrot(50, "green");
+                    animal = new Parrot(50, "green", 10, false);
                     break;
                 default:
                     System.out.println("Invalid");
@@ -32,7 +32,7 @@ public class ZooTester {
             if(animal instanceof Bird){
                 System.out.println(((Bird)animal).fly());
                 if(animal instanceof Parrot){
-                    System.out.println(((Parrot)));
+                    //System.out.println(((Parrot)));
                 }
             }
             else if(animal instanceof Cat){

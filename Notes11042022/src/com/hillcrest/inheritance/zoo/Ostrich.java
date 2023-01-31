@@ -4,7 +4,7 @@ public class Ostrich extends Bird{
 
 
     public Ostrich(int age, String color, int wingSpan, boolean canFly) {
-        super(age, color, 7dw, canFly);
+        super(age, color, 7, canFly);
     }
 
     public String eat(){
