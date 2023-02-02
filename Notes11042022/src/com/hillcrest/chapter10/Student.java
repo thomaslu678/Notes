@@ -1,6 +1,6 @@
 package com.hillcrest.chapter10;
 
-public class Student implements Measurable{
+public class Student implements Measurable, Comparable<Student>{
 
     private String name;
     private double gpa;
@@ -18,4 +18,17 @@ public class Student implements Measurable{
         return gpa;
     }
 
+
+    @Override
+    public int compareTo(Student o) {
+        if(this.gpa < o.gpa){
+            return 1;
+        }
+        else if (this.gpa == o.gpa) {
+            return 0;
+        }
+        else{
+            return -1;
+        }
+    }
 }
