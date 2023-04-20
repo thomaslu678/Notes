@@ -19,7 +19,16 @@ public class MergeSorter {
         for(int i =0; i < second.length; i++){
             second[i] = values[first.length + i];
         }
+        sort(first);
+        sort(second);
+        merge(first, second, values);
 
+    }
+
+    private static void merge(int[] first, int[]second, int[] values){
+        int indexFirst = 0;
+        int indexSecond = 0;
+        int j = 0;
     }
 
 }
